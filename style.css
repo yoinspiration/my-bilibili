@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mobile {
+  display: none;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: orange;
+  background-image: url("./images/logo.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  height: 150px;
+}
+
+header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+
+header nav ul a {
+  color: white;
+  text-decoration: none;
+}
+
+header input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 500px;
+}
+
+main aside {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+main aside .section1 {
+  width: 100px;
+}
+
+main aside .section1 ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+
+main aside ul a {
+  text-decoration: none;
+  color: black;
+}
+
+main aside .section2 ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+main aside .section3 ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* main .videos {
+  display: relative;
+} */
+
+/* main button {
+  display: absolute;
+  top: 0;
+  right: 0;
+} */
+
+main .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  width: 250px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card .meta-data {
+  color: lightgray;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 562px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .mobile img {
+    width: 100px;
+  }
+
+  .mobile input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 150px;
+  }
+
+  .mobile button {
+    padding: 10px 20px;
+  }
+
+  main .mobile ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 20px 0 20px;
+  }
+
+  main .mobile ul a {
+    text-decoration: none;
+    color: black;
+  }
+
+  main .mobile .target {
+    color: rgb(255, 128, 157);
+    border-bottom: 3px solid rgb(255, 128, 157);
+    padding-bottom: 7px;
+  }
+
+  .videos {
+    margin: 1rem 0;
+  }
+
+  .cards {
+    justify-content: center;
+  }
+
+  .card {
+    width: 180px;
+  }
+}
