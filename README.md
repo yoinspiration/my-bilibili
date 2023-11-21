@@ -1,5 +1,5 @@
 桌面版：
-![](./showcase/desktop.png)
+![截图](./showcase/desktop.png)
 
 手机版：
-![](./showcase/mobile.png)
+![截图](./showcase/mobile.png)
